@@ -1,0 +1,56 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(mountain.jpg);
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 500px;
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-size: 50px;
+}
+
+ input, label{
+  text-align: center;
+  position: relative;
+  top: 260px;
+  font-size: 40px;
+  left: 550px;
+  
+
+}
+button{
+  text-align: center;
+  position: relative;
+  top: 260px;
+  font-size: 20px;
+  left: 1000px;
+  background-color: black;
+  color: rgb(200, 71, 71);
+
+}
+.time-container{
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-size: 20px;
+  left: 450px;
+}
+.time-container div{
+  color: white;
+}
+.hide{
+  display: none;
+}
